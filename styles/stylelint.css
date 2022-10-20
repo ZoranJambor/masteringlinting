@@ -1,0 +1,47 @@
+    html, body {
+        min-height: 100%;font-size: 1.2rem;;
+    }
+
+    .duplicate-properties {
+        /* fallback for ie6 */
+        font-size: 1rem;
+        -moz-font-size: 15px;
+        --test: red;
+        --test: blue;
+    }
+
+    a {
+        /* Leaving this commented out for the next release */
+        /* color:rgba(6, 96, 174, 1); */
+    }
+
+    div a {
+        color: red;
+    }
+
+    h1, h2, h3, a {
+        color: blue;
+    }
+
+    div, a {}
+
+    /* */
+    body {
+        content: 'This isn\'t my content.';
+        margin: 2.5rem;
+        padding: 0px;             display: block;
+
+        color:                                  #fff;
+        background-color:  rgba(6, 96, 174, 1);
+        background-image: url(  '../images/cssweekly.svg');
+    }
+
+    body::before {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 500px;
+        width: 500px;
+        inset: auto 0 0px auto;
+        background-image: linear-gradient(315deg,rgba(112, 255, 228, 1) 0%,50%,rgba(6, 96, 174, 1) 100%);
+    }

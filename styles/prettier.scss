@@ -1,0 +1,26 @@
+html, body {
+    min-height: 100%;font-size: 1.2rem;
+}
+
+body {
+	margin: 2.5rem;
+	padding: 0px;            display: block;
+
+	color:                               #fff;
+	background-color: rgba(6, 96, 174, 1);
+	 background-image: url('css-weekly.svg');
+}
+
+body::before {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 500px;
+    width: 500px;
+    inset: auto 0 0px auto;
+    background-image: linear-gradient(315deg,rgba(112, 255, 228, 1) 0%,50%,rgba(6, 96, 174, 1) 100%);
+}
+
+body::after {
+                content: '';
+}
