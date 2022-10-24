@@ -16,5 +16,6 @@ module.exports = {
         tabWidth: 4,
         trailingComma: "es5",
         useTabs: true,
-        vueIndentScriptAndStyle: false
+        vueIndentScriptAndStyle: false,
+        singleAttributePerLine: true
   };
