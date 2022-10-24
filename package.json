@@ -2,7 +2,7 @@
   "devDependencies": {
     "prettier": "2.7.1"
   },
-  "prettierNO": {
+  "prettier": {
     "tabWidth": 20
   }
 }
