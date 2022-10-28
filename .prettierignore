@@ -3,3 +3,5 @@
 
 # ...except
 !*.css
+!*.scss
+!*.html
