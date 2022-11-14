@@ -4,7 +4,7 @@ A one-stop collection of resources that are mentioned in the course Mastering Pr
 ## Tools
 - [Node](https://nodejs.org/en/)
 - [Node Version Manager (NVM)](https://github.com/nvm-sh/nvm)
-- [Guide to Node Version Manager (NVM)](https://github.com/nvm-sh/nvm#installing-and-updating)
+- [Guide to Node Version Manager (NVM)](https://youtu.be/HVmbJaXL_Uc)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Git Tower](https://www.git-tower.com/)
 
