@@ -13,6 +13,7 @@ body {
     background-image: url(  '../images/cssweekly.svg');
 }
 
+/* prettier-ignore */
 body::before {
 	content: '';
 	position: absolute;
