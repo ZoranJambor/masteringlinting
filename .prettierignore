@@ -5,3 +5,6 @@
 !*.css
 !*.scss
 !*.html
+!*.vue
+!*.js
+!.prettierrc

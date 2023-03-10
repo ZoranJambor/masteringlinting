@@ -1,3 +1,11 @@
 {
-    "tabWidth": 40
+    "tabWidth": 4,
+    "overrides": [
+        {
+            "files": ".prettierrc",
+            "options": {
+                "parser": "json"
+            }
+        }
+    ]
 }
