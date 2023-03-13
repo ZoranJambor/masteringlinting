@@ -1,3 +1,5 @@
+/** @format */
+
 // prettier.config.js or .prettierrc.js
 module.exports = {
 	arrowParens: 'always',
@@ -5,12 +7,12 @@ module.exports = {
 	bracketSpacing: true,
 	embeddedLanguageFormatting: 'off',
 	htmlWhitespaceSensitivity: 'ignore',
-	insertPragma: false,
+	insertPragma: true,
 	jsxSingleQuote: false,
 	printWidth: 120,
 	proseWrap: 'preserve',
 	quoteProps: 'as-needed',
-	requirePragma: false,
+	requirePragma: true,
 	semi: false,
 	singleQuote: true,
 	tabWidth: 2,
@@ -24,6 +26,6 @@ module.exports = {
 			options: {
 				singleAttributePerLine: false,
 			},
-		}
+		},
 	],
 }
