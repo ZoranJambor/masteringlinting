@@ -1,3 +1,5 @@
+/** @format */
+
 html, body {
     min-height: 100%;font-size: 1.2rem;;
 }
@@ -39,3 +41,9 @@ body::after {
         -2px 2px 1px hsl(270, 70%, 40%),
         2px 2px 1px hsl(270, 70%, 40%);
 }
+
+:where(
+  label > input:valid,
+  label > textarea:not(:empty),
+  label > button[disabled]
+) ~ .errors > .error { display: none; }
