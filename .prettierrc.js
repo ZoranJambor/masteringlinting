@@ -27,5 +27,11 @@ module.exports = {
 				singleAttributePerLine: false,
 			},
 		},
+		{
+			files: 'C02',
+			options: {
+				parser: "html",
+			},
+		},
 	],
 }

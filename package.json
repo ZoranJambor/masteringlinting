@@ -2,6 +2,7 @@
   "devDependencies": {
     "@prettier/plugin-php": "^0.19.3",
     "prettier": "^2.8.4",
+    "prettier-plugin-organize-attributes": "^0.0.5",
     "prettier-plugin-tailwindcss": "^0.2.4"
   },
   "prettierNO": {
