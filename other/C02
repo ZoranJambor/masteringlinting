@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+<meta charset="utf-8" />
+        <title>Mastering Prettier & Stylelint Challenge #2</title>
+            <meta name="description" content="" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+         <meta property="og:title" content="" />
+            <meta property="og:type" content="" />
+          <meta property="og:url" content="" />
+            <meta property="og:image" content="" >
+
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <meta name="theme-color" content="#fafafa" />
+
+
+        <style>
+            .cta{display:inline-block; float: left;color:red;} .test{background:#f0f; color: #f0f;}
+        </style>
+</head>
+
+        <body>
+        <!-- !! DO NOT TOUCH - Auto generated content — START !! -->
+        <a href="https://youtube.com/@cssweekly" target="_blank">CSS Weekly YouTube Channel</a>
+        <a href="https://css-weekly.com" target="_blank">CSS Weekly Newsletter</a>
+        <a href="https://stickers.css-weekly.com" target="_blank">CSS Stickers</a>
+        <!-- !! DO NOT TOUCH - Auto generated content — END !! -->
+
+		<span class="exampleclass" id="example-id" data-hook="js-hook1">
+			Est molestiae sunt facilis qui rem.
+		</span>
+		<span id="example-id2" data-hook="js-hook2"  class="exampleclass2">
+			Est molestiae sunt facilis qui rem.
+		</span>
+	</body>
+</html>
