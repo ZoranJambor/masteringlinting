@@ -2,6 +2,7 @@
 
 // prettier.config.js or .prettierrc.js
 module.exports = {
+	...require("@cssweekly/prettier-config"),
 	arrowParens: 'always',
 	bracketSameLine: false,
 	bracketSpacing: true,
