@@ -1,18 +1,20 @@
 /** @format */
 
-html, body {
-    min-height: 100%;font-size: 1.2rem;;
+html,
+body {
+	min-height: 100%;
+	font-size: 1.2rem;
 }
 
-
 body {
-	content: 'This isn\'t my content.';
+	content: "This isn't my content.";
 	margin: 2.5rem;
-	padding: 0px;             display: block;
+	padding: 0px;
+	display: block;
 
-	color:                                  #fff;
-	background-color:  rgba(6, 96, 174, 1);
-    background-image: url(  '../images/cssweekly.svg');
+	color: #fff;
+	background-color: rgba(6, 96, 174, 1);
+	background-image: url('../images/cssweekly.svg');
 }
 
 /* prettier-ignore */
@@ -27,23 +29,23 @@ body::before {
 }
 
 body::after {
-			content:	  'This is my content.';
+	content: 'This is my content.';
 }
 
 .headline {
-  color:      purple;
-    text-shadow: -1px -1px 1px hsl(270, 70%, 40%),
-        1px -1px 1px hsl(270, 70%, 40%),
-        -1px 1px 1px hsl(270, 70%, 40%),
-        1px 1px 1px hsl(270, 70%, 40%),
-        -2px -2px 1px hsl(270, 70%, 40%),
-        2px -2px 1px hsl(270, 70%, 40%),
-        -2px 2px 1px hsl(270, 70%, 40%),
-        2px 2px 1px hsl(270, 70%, 40%);
+	color: purple;
+	text-shadow: -1px -1px 1px hsl(270, 70%, 40%), 1px -1px 1px hsl(270, 70%, 40%),
+		-1px 1px 1px hsl(270, 70%, 40%), 1px 1px 1px hsl(270, 70%, 40%),
+		-2px -2px 1px hsl(270, 70%, 40%), 2px -2px 1px hsl(270, 70%, 40%),
+		-2px 2px 1px hsl(270, 70%, 40%), 2px 2px 1px hsl(270, 70%, 40%);
 }
 
 :where(
-  label > input:valid,
-  label > textarea:not(:empty),
-  label > button[disabled]
-) ~ .errors > .error { display: none; }
+		label > input:valid,
+		label > textarea:not(:empty),
+		label > button[disabled]
+	)
+	~ .errors
+	> .error {
+	display: none;
+}
