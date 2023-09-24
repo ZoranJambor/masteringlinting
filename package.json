@@ -4,6 +4,8 @@
     "@cssweekly/prettier-config": "^1.0.0",
     "@prettier/plugin-php": "0.19.3",
     "husky": "^8.0.3",
+    "jest": "^29.7.0",
+    "jest-runner-prettier": "^1.0.0",
     "lint-staged": "^13.2.2",
     "prettier": "2.8.4",
     "prettier-plugin-organize-attributes": "0.0.5",
@@ -17,5 +19,14 @@
   },
   "scripts": {
     "prepare": "husky install"
+  },
+  "jest": {
+    "runner": "prettier",
+    "moduleFileExtensions": [
+      "css"
+    ],
+    "testMatch": [
+      "**/*.css"
+    ]
   }
 }
