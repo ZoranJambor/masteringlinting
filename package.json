@@ -3,6 +3,8 @@
   "devDependencies": {
     "@cssweekly/prettier-config": "^1.0.0",
     "@prettier/plugin-php": "0.19.3",
+    "gulp": "^4.0.2",
+    "gulp-prettier": "^5.0.0",
     "husky": "^8.0.3",
     "jest": "^29.7.0",
     "jest-runner-prettier": "^1.0.0",
@@ -12,10 +14,13 @@
     "prettier-plugin-organize-attributes": "0.0.5",
     "prettier-plugin-tailwindcss": "0.2.7"
   },
+  "overrides": {
+    "prettier": "$prettier"
+  },
   "prettierNO": {
     "tabWidth": 20
   },
-  "lint-staged": {
+  "NOlint-staged": {
     "*.{js,css,md}": "prettier --write"
   },
   "scripts": {
