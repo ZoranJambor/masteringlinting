@@ -2,13 +2,13 @@
 
 html,
 body {
-			min-height: 100%;
-					   font-size: 1.2rem;
+	min-height: 100%;
+	font-size: 1.2rem;
 }
 
 body {
-				content: "This isn't my content.";
-		  margin: 2.5rem;
+	content: "This isn't my content.";
+	margin: 2.5rem;
 	padding: 0px;
 	display: block;
 
