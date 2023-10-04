@@ -9,7 +9,7 @@ body {
 body {
 	content: "This isn't my content.";
 	margin: 2.5rem;
-	padding: 0px;
+	padding: 0;
 	display: block;
 
 	color: #fff;
