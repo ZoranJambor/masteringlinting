@@ -1,6 +1,7 @@
 name: Prettier Check
 
-# This action works with pull requests
+# This action works with pull requests on main branch and checks
+# if all files in the pull-request are formatted with Prettier
 on:
   pull_request:
     branches:
